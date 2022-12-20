@@ -1,7 +1,7 @@
 function openPopup() {
-    document.getElementById('test').style.display = 'block';
+    document.getElementById('winner').style.display = 'block';
 }
 
 function closePopup() {
-    document.getElementById('test').style.display = 'none';
+    document.getElementById('winner').style.display = 'none';
 }
