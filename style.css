@@ -1,0 +1,110 @@
+h1 {
+    font-size:50px;
+    text-align:center;
+    padding:20px;
+    margin-top:-1%;
+    color:white;
+
+}
+
+body {
+    height: 125vh;
+    background-image: url('https://s7d2.scene7.com/is/image/ritzcarlton/gcmrz-day-bed-36461?$XlargeViewport100pct$');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+button {
+    align-items: center;
+    background-color: tan;
+    border-radius: 30px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: black;
+    cursor:pointer;
+    display: flex;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    line-height: normal;
+    max-width: 100%;
+    padding: 2px 24px;
+    text-align: center;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+.popup {
+    position:center;
+    top:0px;
+    left:0px;
+    margin:100px auto;
+    width:500px;
+    height:150px;
+    font-family:verdana;
+    font-size:13px;
+    padding:10px;
+    background-color:rgb(240,240,240);
+}
+
+.cancel {
+    display:relative;
+    cursor:pointer;
+    margin:0;
+    float:right;
+    height:10px;
+    width:14px;
+    padding:0 0 5px 0;
+    background-color:black;
+    text-align:center;
+    font-weight:bold;
+    font-size:11px;
+    color:white;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
