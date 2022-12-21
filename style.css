@@ -49,10 +49,11 @@ button:hover {
 }
 
 .popup {
-    position:center;
-    top:0px;
-    left:0px;
-    margin:100px auto;
+    position:fixed;
+    top:30%;
+    left:50%;
+    margin-left:-250px;
+    margin-right:50px;
     width:500px;
     height:150px;
     font-family:verdana;
@@ -62,11 +63,12 @@ button:hover {
 }
 
 .cancel {
-    display:relative;
+    position:absolute;
+    /* display:relative;
+    float:right; */
     top:0;
     right:0;
     cursor:pointer;
-    float:right;
     margin:0;
     height:10px;
     width:14px;
