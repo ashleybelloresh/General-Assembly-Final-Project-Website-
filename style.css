@@ -74,6 +74,13 @@ button:hover {
     background-color:black;
 }
 
+#winner{
+    font-size: 30px;
+    text-align:center;
+    color:green;
+    font-weight:Bold;
+}
+
 main {
     color: white;
 }
